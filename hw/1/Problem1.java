@@ -6,6 +6,7 @@ public class Problem1{
         
 
         // Result is -7
+        System.out.print("The discriminant is: ");
         System.out.println(5 * 5 - 4 * 2 * 4);
     }
 }
