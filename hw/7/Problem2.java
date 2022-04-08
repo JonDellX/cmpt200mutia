@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import Point;
+//import Point;
 
 public class Problem2 {
     public static void main(String[] args) {
