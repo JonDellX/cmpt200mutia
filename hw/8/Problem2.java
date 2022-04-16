@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
+// JA: It misses some of the elements
 public class Problem2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
