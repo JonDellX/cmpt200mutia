@@ -27,6 +27,7 @@ public class Project4 {
 
         
         String fileName = ""; // file is accessed based on year.
+        // JA: fileName = "babyranking" + year + ".txt"
         switch(year) {
         
         case 2001:
@@ -64,6 +65,7 @@ public class Project4 {
         
 
 
+          // JA: How do you handle different genders?
           BabyName babyName = findName(name, year, loadNames(fileName)); // Access object methods
           // get baby name().
 
@@ -118,9 +120,6 @@ public class Project4 {
 
         
             return babyArray; 
-        
-        
-
         
     }
     private static BabyName findName(String name, int year, ArrayList<BabyName> names) {
