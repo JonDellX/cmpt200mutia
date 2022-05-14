@@ -13,6 +13,7 @@ class Complex extends Number implements Comparable<Complex>,Cloneable{
     }
 
     public Complex(double a){ // Constructor #3:  Only real value; no imaginary part.
+        this.a = a;
         this.b = 0;
     }
 
@@ -74,10 +75,10 @@ class Complex extends Number implements Comparable<Complex>,Cloneable{
 
 @Override
     public int compareTo(Complex o){
-    if (getComplexValue() > o.getComplexValue()){
+    if (abs() > o.abs()){
         return 1;
     }
-    else if (getComplexValue() < o.getComplexValue()){
+    else if (abs() < o.abs()){
         return -1;
     }
     else{
